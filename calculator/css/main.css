@@ -1,0 +1,47 @@
+.cal{
+  width: 400px;
+  height: 600px;
+  border: 1px solid;
+  background: black;
+  border-radius: 15px;
+  margin: 50px auto;
+}
+
+
+input{
+  width: 90%;
+  height: 60px;
+  font-size: 45px;
+  margin: 20px 12px 20px 13px;
+  background: grey;
+  color: white;
+}
+
+button{
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  font-size: 25px;
+  background: grey;
+  color: white;
+}
+
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 30px;
+
+}
+
+#equ{
+  width: 245px;
+  background: #fad703;
+  color: black;
+  font-weight: bolder;
+  font-size: 45px;
+}
+
+#cls{
+  background: blue;
+}
